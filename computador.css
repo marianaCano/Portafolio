@@ -1,6 +1,4 @@
-body{
-    background-color:#caaac2;
-}
+
 input#abrir-cerrar { visibility:hidden; position: absolute; top: -9999px; }
 
 input#abrir-cerrar:checked ~ #sidebar {
