@@ -140,4 +140,18 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
     justify-content: space-between;
     margin: 0 auto;
 }
+.tipografia{
+    font-family: 'Poppins', sans-serif;
+    font-size:4rem;
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2rem;
+}
+
+.tipografia-titulos{
+    font-family: 'Poppins', sans-serif;
+    font-size:2rem;
+}
 
