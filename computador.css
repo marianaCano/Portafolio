@@ -1,4 +1,6 @@
-
+body{
+    background-color:#d6c7dd;
+}
 input#abrir-cerrar { visibility:hidden; position: absolute; top: -9999px; }
 
 input#abrir-cerrar:checked ~ #sidebar {
@@ -185,4 +187,11 @@ img{
     background-color: #9e70a2;
     width: 600px;
     margin: 1rem;
+}
+.div5{
+
+     background: linear-gradient(to bottom, #caaac2, #d6c7dd);
+ }
+ body{
+    background: linear-gradient(to bottom,  #d6c7dd, #d6c7dd);
 }
