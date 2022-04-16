@@ -1,5 +1,5 @@
 body{
-    background-color:#d6c7dd;
+    background: linear-gradient(to bottom,  #d6c7dd, #d6c7dd);
 }
 input#abrir-cerrar { visibility:hidden; position: absolute; top: -9999px; }
 
