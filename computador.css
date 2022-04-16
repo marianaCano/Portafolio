@@ -195,10 +195,13 @@ img{
  .fotos{
     width: 330px;
     height: 230px;
-    margin: 3rem;
+    margin: 1rem;
 }
 .letras{
     font-size: 2rem;
     color: #6c4774;
     margin: 4rem;
+}
+.margen{
+    margin-inline: 7rem;
 }
