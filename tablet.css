@@ -127,7 +127,7 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
 
 .abrir-cerrar {
     color:aquamarine;
-    font-size:0.8rem;   
+    font-size:1rem;   
 }
 
 .center{
