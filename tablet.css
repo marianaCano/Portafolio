@@ -26,7 +26,7 @@ body {
 }
 
 header {
-    background:aquamarine;
+    background:#6c4774;
     color:#eee;
     width:100%;
 }
@@ -40,10 +40,10 @@ input#abrir-cerrar {
 label[for="abrir-cerrar"] {
     cursor:pointer;
     padding: 1rem;
-    background-color:aquamarine;
+    background-color:#6c4774;
     color:black;
     display:inline-block;
-    width: 10%;
+    width: 100%;
 }
 .cerrar {
     display:none;
@@ -80,7 +80,7 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
     top: 0;
     left: 0;
     z-index: 1;
-    background-color: azure;
+    background-color: #a284a5;
     overflow-x: hidden;
     transition: 0.4s;
     padding: 1rem 0;
