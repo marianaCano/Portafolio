@@ -204,3 +204,13 @@ img{
     font-size: 3rem;
     color: #6c4774;
 }
+.fotos{
+    width: 300px;
+    height: 200px;
+    margin: 2rem;
+}
+.letras{
+    font-size: 2rem;
+    color: #6c4774;
+    margin: 2rem;
+}

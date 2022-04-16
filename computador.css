@@ -192,3 +192,13 @@ img{
 
      background: linear-gradient(to bottom, #caaac2, #d6c7dd);
  }
+ .fotos{
+    width: 330px;
+    height: 230px;
+    margin: 3rem;
+}
+.letras{
+    font-size: 2rem;
+    color: #6c4774;
+    margin: 4rem;
+}
