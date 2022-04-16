@@ -153,6 +153,10 @@ p{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1rem;
 }
+pre{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+}
 
 .tipografia-titulos{
     font-family: 'Poppins', sans-serif;
@@ -193,8 +197,9 @@ img{
 }
 .imagen{
    width: 300px;
-   height: 200px;
+   height: 220px;
 }
+
 .letra{
     font-size: 3rem;
     color: #6c4774;
