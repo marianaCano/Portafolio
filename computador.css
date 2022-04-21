@@ -168,24 +168,10 @@ img{
 .div1{
     background-color: #9e70a2;
     width: 600px;
-    margin: 1rem;
-}
-
-.div2{
-    background-color: #9e70a2;
-    width: 600px;
-    margin: 1rem;
-}
-
-.div3{
-    background-color: #9e70a2;
-    width: 600px;
-    margin: 1rem;
-}
-
-.div4{
-    background-color: #9e70a2;
-    width: 600px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 1rem;
 }
 .div5{

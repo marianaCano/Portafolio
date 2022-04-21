@@ -171,26 +171,13 @@ pre{
 .div1{
     background-color: #9e70a2;
     width: 300px;
-    margin: 0.5rem;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:1rem;
 }
 
-.div2{
-    background-color: #9e70a2;
-    width: 300px;
-    margin: 0.5rem;
-}
-
-.div3{
-    background-color: #9e70a2;
-    width: 300px;
-    margin: 0.5rem;
-}
-
-.div4{
-    background-color: #9e70a2;
-    width: 300px;
-    margin: 0.5rem;
-}
 iframe{
     width: 280px;
     height: 180px;    
