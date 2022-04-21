@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background: linear-gradient(to bottom,  #d6c7dd, #caaac2);
 }
@@ -43,7 +46,7 @@ label[for="abrir-cerrar"] {
     cursor:pointer;
     padding: 1.5rem;
     background-color:#6c4774;
-    color:black;
+    color:#d6c7dd;
     display:inline-block;
     width: 100%;
 }
