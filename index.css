@@ -1,83 +1,93 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
-    background: linear-gradient(to bottom,  #d6c7dd, #A073D1);
-}
-input#abrir-cerrar { visibility:hidden; position: absolute; top: -9999px; }
 
-input#abrir-cerrar:checked ~ #sidebar {
-    width:300px;
+body {
+    background: linear-gradient(to bottom, #d6c7dd, #A073D1);
 }
 
-input#abrir-cerrar:checked + label[for="abrir-cerrar"], input#abrir-cerrar:checked ~ #contenido {
-    margin-left:300px;
+input#abrir-cerrar {
+    visibility: hidden;
+    position: absolute;
+    top: -9999px;
+}
+
+input#abrir-cerrar:checked~#sidebar {
+    width: 300px;
+}
+
+input#abrir-cerrar:checked+label[for="abrir-cerrar"],
+input#abrir-cerrar:checked~#contenido {
+    margin-left: 300px;
     transition: margin-left .4s;
 }
 
-input#abrir-cerrar:checked + label[for="abrir-cerrar"] .cerrar { 
-    display:inline;
+input#abrir-cerrar:checked+label[for="abrir-cerrar"] .cerrar {
+    display: inline;
 }
 
-input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
-    display:none;
+input#abrir-cerrar:checked+label[for="abrir-cerrar"] .abrir {
+    display: none;
 }
 
 body {
     font-family: "Segoe UI", sans-serif;
-    font-size:100%;
-    margin:0;
-    padding:0;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    background:#6c4774;
-    color:#eee;
-    width:100%;
+    background: #6c4774;
+    color: #eee;
+    width: 100%;
 }
 
 input#abrir-cerrar {
-    visibility:hidden;
+    visibility: hidden;
     position: absolute;
     top: -9999px;
 }
 
 label[for="abrir-cerrar"] {
-    cursor:pointer;
+    cursor: pointer;
     padding: 1.5rem;
-    background-color:#6c4774;
-    color:#d6c7dd;
-    display:inline-block;
+    background-color: #6c4774;
+    color: #d6c7dd;
+    display: inline-block;
     width: 100%;
-    position:sticky;
-    top: 0; 
+    position: sticky;
+    top: 0;
 }
+
 .cerrar {
-    display:none;
+    display: none;
 }
 
 #sidebar {
-    width:0;
+    width: 0;
 }
 
 #contenido {
-    margin-left:0;
+    margin-left: 0;
 }
 
-input#abrir-cerrar:checked ~ #sidebar {
-    width:300px;
+input#abrir-cerrar:checked~#sidebar {
+    width: 300px;
 }
 
-input#abrir-cerrar:checked + label[for="abrir-cerrar"], input#abrir-cerrar:checked ~ #contenido {
-    margin-left:300px;
+input#abrir-cerrar:checked+label[for="abrir-cerrar"],
+input#abrir-cerrar:checked~#contenido {
+    margin-left: 300px;
     transition: margin-left .4s;
 }
-input#abrir-cerrar:checked + label[for="abrir-cerrar"] .cerrar {
-    display:inline;
+
+input#abrir-cerrar:checked+label[for="abrir-cerrar"] .cerrar {
+    display: inline;
 }
 
-input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
-    display:none;
+input#abrir-cerrar:checked+label[for="abrir-cerrar"] .abrir {
+    display: none;
 }
 
 .sidebar {
@@ -107,24 +117,25 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
     text-align: center;
 }
 
-.sidebar ul, .sidebar li{
-    margin:0;
-    padding:0;
-    list-style:none inside;
+.sidebar ul,
+.sidebar li {
+    margin: 0;
+    padding: 0;
+    list-style: none inside;
 }
 
 .sidebar ul {
     margin: 4rem auto;
     display: block;
     width: 80%;
-    min-width:200px;
+    min-width: 200px;
 }
 
 .sidebar a {
     display: block;
     font-size: 120%;
     color: black;
-    text-decoration: none;  
+    text-decoration: none;
 }
 
 #contenido {
@@ -133,36 +144,28 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
 }
 
 .abrir-cerrar {
-    color:aquamarine;
-    font-size:1rem;   
+    color: aquamarine;
+    font-size: 1rem;
 }
 
-.center{
+.center {
     text-align: center;
 }
 
-.contenedor{
+.contenedor {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
 }
 
-.tipografia{
+.tipografia {
     font-family: 'Poppins', sans-serif;
-    font-size:2rem;
+    font-size: 2rem;
     color: #442d47;
 }
 
-p{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1rem;
-    color: #442d47;
-    margin: auto;
-    margin-left: 3rem;
-    margin-right: 3rem;
-}
-pre{
+p {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1rem;
     color: #442d47;
@@ -171,86 +174,103 @@ pre{
     margin-right: 3rem;
 }
 
-.tipografia-titulos{
+pre {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    color: #442d47;
+    margin: auto;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.tipografia-titulos {
     font-family: 'Poppins', sans-serif;
-    font-size:1.2rem;
+    font-size: 1.2rem;
     color: #442d47;
 }
 
-.margen1{
+.margen1 {
     background-color: #9e70a2;
     width: 300px;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:1rem;
+    margin: 1rem;
 }
 
-iframe{
-    width: 280px;
-    height: 180px;    
-}
-img{
+iframe {
     width: 280px;
     height: 180px;
 }
-.imagen{
-   width: 300px;
-   height: 220px;
-   border-radius: 50px;
-   margin: 1rem;
+
+img {
+    width: 280px;
+    height: 180px;
 }
 
-.letra{
+.imagen {
+    width: 300px;
+    height: 220px;
+    border-radius: 50px;
+    margin: 1rem;
+}
+
+.letra {
     font-size: 3rem;
     color: #442d47;
 }
-.fotos{
+
+.fotos {
     width: 300px;
     height: 200px;
     margin: 2rem;
 }
-.letras{
+
+.letras {
     font-size: 2rem;
     color: #442d47;
     margin: 2rem;
 }
-.boton{
-    border: 1px solid #442d47; 
-    padding: 1rem; 
-    background-color: #442d47; 
-    color: #d6c7dd; 
-    text-decoration: none; 
-    text-transform: uppercase; 
+
+.boton {
+    border: 1px solid #442d47;
+    padding: 1rem;
+    background-color: #442d47;
+    color: #d6c7dd;
+    text-decoration: none;
+    text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
-    border-radius: 50px; 
+    border-radius: 50px;
     margin: 2rem;
 }
+
 .boton:hover {
     background-color: #925f99;
 }
 
-footer{
+footer {
     margin-top: 50px;
 
-    background-color:#551966;
+    background-color: #551966;
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1rem;
 
-  }
-.letra2{
+}
+
+.letra2 {
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
-    color:#d6c7dd;
+    color: #d6c7dd;
 }
-.margen2{
+
+.margen2 {
     background-color: #9e70a2;
     width: 300px;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:1rem;
+    margin: 1rem;
 }
