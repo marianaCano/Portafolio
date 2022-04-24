@@ -226,3 +226,14 @@ img{
 .boton:hover {
     background-color: #925f99;
 }
+.borde{
+    background-color: #9e70a2;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:1rem;
+    text-align: center;
+    border-radius: 50px;
+}
