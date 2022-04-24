@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(to bottom,  #d6c7dd, #caaac2);
+    background: linear-gradient(to bottom,  #d6c7dd, #551966);
 }
 input#abrir-cerrar { visibility:hidden; position: absolute; top: -9999px; }
 
@@ -156,6 +156,9 @@ p{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1rem;
     color: #442d47;
+    margin: auto;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 pre{
     font-family: 'Source Sans Pro', sans-serif;
@@ -206,3 +209,13 @@ img{
     color: #442d47;
     margin: 2rem;
 }
+.boton {
+    border: 1px solid #442d47; 
+    padding: 1rem; 
+    background-color: #442d47; 
+    color: #d6c7dd; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 50px; 
+    }

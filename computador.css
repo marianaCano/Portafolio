@@ -1,6 +1,4 @@
-body{
-    background: linear-gradient(to bottom,  #d6c7dd, #d6c7dd);
-}
+
 input#abrir-cerrar { visibility:hidden; position: absolute; top: -9999px; }
 
 input#abrir-cerrar:checked ~ #sidebar {
@@ -150,6 +148,8 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
 p{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 
 .tipografia-titulos{
@@ -174,10 +174,7 @@ img{
     align-items: center;
     margin: 1rem;
 }
-.div5{
 
-     background: linear-gradient(to bottom, #caaac2, #d6c7dd);
- }
  .fotos{
     width: 330px;
     height: 230px;

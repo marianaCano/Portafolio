@@ -148,6 +148,9 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
 p{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.2rem;
+    margin: auto;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 
 .tipografia-titulos{
@@ -172,8 +175,6 @@ img{
     align-items: center;
     margin:1rem;
 }
-
-
 .imagen{
     width: 450px;
     height: 330px;
