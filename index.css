@@ -220,3 +220,6 @@ img{
     border-radius: 50px; 
     margin: 2rem;
 }
+.boton:hover {
+    background-color: #925f99;
+}
