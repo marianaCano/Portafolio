@@ -212,3 +212,10 @@ footer{
     font-size: 1rem;
     color:#d6c7dd;
 }
+.descripcion{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2rem;
+    color: #442d47;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
