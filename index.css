@@ -166,6 +166,9 @@ pre{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1rem;
     color: #442d47;
+    margin: auto;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 .tipografia-titulos{
@@ -196,6 +199,7 @@ img{
    width: 300px;
    height: 220px;
    border-radius: 50px;
+   margin: 1rem;
 }
 
 .letra{
@@ -226,14 +230,4 @@ img{
 .boton:hover {
     background-color: #925f99;
 }
-.borde{
-    background-color: #9e70a2;
-    width: 350px;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin:2rem;
-    text-align: center;
-    border-radius: 50px;
-}
+
