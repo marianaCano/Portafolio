@@ -49,6 +49,8 @@ label[for="abrir-cerrar"] {
     color:#d6c7dd;
     display:inline-block;
     width: 100%;
+    position:sticky;
+    top: 0; 
 }
 .cerrar {
     display:none;
@@ -193,6 +195,7 @@ img{
 .imagen{
    width: 300px;
    height: 220px;
+   border-radius: 50px;
 }
 
 .letra{
