@@ -188,3 +188,13 @@ img{
 .margen{
     margin-inline: 7rem;
 }
+.boton{
+    border: 1px solid #442d47; 
+    padding: 1rem; 
+    background-color: #442d47; 
+    color: #d6c7dd; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 50px; 
+}
