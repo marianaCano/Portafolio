@@ -166,7 +166,7 @@ img{
     width: 400px;
     height: 250px;
 }
-.div1{
+.margen1{
     background-color: #9e70a2;
     width: 430px;
     height: 280px;
@@ -205,4 +205,13 @@ footer{
     color: #442d47;
     margin-left: 3rem;
     margin-right: 3rem;
+}
+.margen2{
+    background-color: #9e70a2;
+    width: 430px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:1rem;
 }

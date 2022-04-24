@@ -177,7 +177,7 @@ pre{
     color: #442d47;
 }
 
-.div1{
+.margen1{
     background-color: #9e70a2;
     width: 300px;
     height: 200px;
@@ -245,10 +245,12 @@ footer{
     font-size: 1rem;
     color:#d6c7dd;
 }
-.descripcion{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1rem;
-    color: #442d47;
-    margin-left: 3rem;
-    margin-right: 3rem;
+.margen2{
+    background-color: #9e70a2;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:1rem;
 }
