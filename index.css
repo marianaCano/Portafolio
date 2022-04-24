@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(to bottom,  #d6c7dd, #8D579E);
+    background: linear-gradient(to bottom,  #d6c7dd, #A073D1);
 }
 input#abrir-cerrar { visibility:hidden; position: absolute; top: -9999px; }
 
