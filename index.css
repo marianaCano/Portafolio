@@ -209,7 +209,7 @@ img{
     color: #442d47;
     margin: 2rem;
 }
-.boton {
+.boton{
     border: 1px solid #442d47; 
     padding: 1rem; 
     background-color: #442d47; 
@@ -218,4 +218,4 @@ img{
     text-transform: uppercase; 
     font-family: 'Source Sans Pro', sans-serif;
     border-radius: 50px; 
-    }
+}
