@@ -215,3 +215,6 @@ footer{
     align-items: center;
     margin:1rem;
 }
+.oculta{
+    display: none;
+}
