@@ -163,6 +163,7 @@ input#abrir-cerrar:checked+label[for="abrir-cerrar"] .abrir {
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
     color: #442d47;
+    margin: auto;
 }
 
 p {
