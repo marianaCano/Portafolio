@@ -6,9 +6,11 @@ function natura(){
     secs[1] = document.getElementById("s1");
     secs[2] = document.getElementById("s2");
     secs[3] = document.getElementById("s3");
+    secs[4] = document.getElementById("s4");
     boton[1] = document.getElementById("b_1");
     boton[2] = document.getElementById("b_2");
     boton[3] = document.getElementById("b_3");
+    boton[4] = document.getElementById("b_4");
 }
 
 function quitar(){
