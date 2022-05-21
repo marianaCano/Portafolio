@@ -231,3 +231,10 @@ footer{
 .oculta{
     display: none;
 }
+.imagenLookAt {
+    width: 500px;
+    height: 540px;
+    border-radius: 30px;
+    margin: 1;
+
+}

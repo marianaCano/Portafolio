@@ -218,3 +218,10 @@ footer{
 .oculta{
     display: none;
 }
+.imagenLookAt {
+    width: 400px;
+    height: 440px;
+    border-radius: 30px;
+    margin: 1;
+
+}
